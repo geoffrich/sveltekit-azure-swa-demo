@@ -9,7 +9,7 @@
   "devDependencies": {
     "@sveltejs/kit": "^1.0.0-next.216",
     "svelte": "^3.34.0",
-    "svelte-adapter-azure-swa": "0.0.1"
+    "svelte-adapter-azure-swa": "github:geoffrich/svelte-adapter-azure-swa#issue-6"
   },
   "type": "module",
   "dependencies": {
