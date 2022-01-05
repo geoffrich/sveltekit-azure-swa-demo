@@ -1,20 +1,21 @@
 {
-  "name": "sveltekit-azure-swa-demo",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview"
-  },
-  "devDependencies": {
-    "@sveltejs/kit": "^1.0.0-next.216",
-    "svelte": "^3.34.0",
-    "svelte-adapter-azure-swa": "github:geoffrich/svelte-adapter-azure-swa#issue-6"
-  },
-  "type": "module",
-  "dependencies": {
-    "@fontsource/fira-mono": "^4.5.0",
-    "@lukeed/uuid": "^2.0.0",
-    "cookie": "^0.4.1"
-  }
+	"name": "sveltekit-azure-swa-demo",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^1.0.0-next.216",
+		"svelte": "^3.44.0",
+		"svelte-adapter-azure-swa": "github:geoffrich/svelte-adapter-azure-swa#main"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fontsource/fira-mono": "^4.5.0",
+		"@lukeed/uuid": "^2.0.0",
+		"cookie": "^0.4.1"
+	}
 }

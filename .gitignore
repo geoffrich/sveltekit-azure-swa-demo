@@ -4,3 +4,8 @@ node_modules
 /.svelte-kit
 /package
 /api/render
+.env
+.env.*
+!.env.example
+.vercel
+.output
