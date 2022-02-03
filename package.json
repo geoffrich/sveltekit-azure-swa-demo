@@ -8,9 +8,9 @@
 		"preview": "svelte-kit preview"
 	},
 	"devDependencies": {
-		"@sveltejs/kit": "^1.0.0-next.216",
-		"svelte": "^3.44.0",
-		"svelte-adapter-azure-swa": "^0.2.0"
+		"@sveltejs/kit": "^1.0.0-next.260",
+		"svelte": "^3.46.0",
+		"svelte-adapter-azure-swa": "^0.4.0"
 	},
 	"type": "module",
 	"dependencies": {
