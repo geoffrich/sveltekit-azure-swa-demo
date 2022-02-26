@@ -3,9 +3,9 @@ node_modules
 /build
 /.svelte-kit
 /package
-/api/render
 .env
 .env.*
 !.env.example
 .vercel
 .output
+/api/render
