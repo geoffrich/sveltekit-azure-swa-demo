@@ -1,15 +1,22 @@
-import adapter from 'svelte-adapter-azure-swa';
+import adapter from "svelte-adapter-azure-swa";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: {
-		adapter: adapter(),
+  kit: {
+    adapter: () => {
+      console.log(
+        "******** ACTION ENV VARS",
+        process.env.GITHUB_ACTION_REPOSITORY,
+        process.env.GITHUB_ACTION
+      );
+      return adapter();
+    },
 
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		}
-	}
+    // Override http methods in the Todo forms
+    methodOverride: {
+      allowed: ["PATCH", "DELETE"],
+    },
+  },
 };
 
 export default config;
