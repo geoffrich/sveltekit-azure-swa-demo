@@ -27,5 +27,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0"
+	},
+	"engines": {
+		"node": ">=16.7 <17.0"
 	}
 }
